@@ -1,0 +1,36 @@
+[project]
+name = "doc-extraction-eval"
+version = "0.1.0"
+description = "OCR + LLM receipt extraction with Pydantic validation and an evaluation suite"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "pillow>=10",
+    "pytesseract>=0.3.10",
+    "python-dotenv>=1.0",
+    "psycopg[binary]>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyarrow"]
+# Reading the CORD-v2 parquet files (scripts/build_golden.py, Eval & QA)
+data = ["pyarrow"]
+# Optional OCR engines (large, CPU torch/paddle); see scripts/compare_ocr.py
+ocr-easyocr = ["easyocr"]
+ocr-doctr = ["python-doctr", "torch", "torchvision"]
+ocr-paddle = ["paddlepaddle", "paddleocr"]
+# MongoDB document store (src/load_mongo.py, scripts/mongo_parity.py)
+mongo = ["pymongo>=4.6"]
+# Dormant paid LLM adapters; only needed if you add an API key
+# OpenAI-compatible SDK, used for --provider deepseek (paid; needs DEEPSEEK_API_KEY)
+llm = ["openai>=1.0"]
+paid-llm = ["openai", "anthropic"]
+
+[tool.setuptools]
+packages = ["src", "src.prompts"]
+
+[tool.setuptools.package-data]
+"src.prompts" = ["*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

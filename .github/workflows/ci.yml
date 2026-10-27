@@ -1,0 +1,68 @@
+# CI for the app code (owned by Software DEV).
+# Free only: Tesseract OCR, the rules/cached extractors and a throwaway
+# Postgres 16 and MongoDB 7 service containers. No API keys, no paid calls.
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: receipts
+          POSTGRES_PASSWORD: receipts
+          POSTGRES_DB: receipts
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U receipts -d receipts"
+          --health-interval 3s --health-timeout 3s --health-retries 20
+      mongo:
+        image: mongo:7
+        env:
+          MONGO_INITDB_ROOT_USERNAME: receipts
+          MONGO_INITDB_ROOT_PASSWORD: receipts
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --quiet --eval 'db.runCommand({ping:1}).ok'"
+          --health-interval 3s --health-timeout 5s --health-retries 20
+    env:
+      # lets tests/test_load_db.py run against the service above
+      DATABASE_URL: postgresql://receipts:receipts@localhost:5432/receipts
+      # lets tests/test_load_mongo.py and tests/test_mongo_parity.py run against mongo
+      MONGO_URL: mongodb://receipts:receipts@localhost:27017/receipts?authSource=admin
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Tesseract
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends tesseract-ocr
+
+      - name: Install project
+        run: pip install -e ".[dev,mongo]"
+
+      # docTR is not installed here, so the "auto" OCR engine uses tesseract.
+      - name: Unit + integration tests
+        run: python -m pytest -v -rs --ignore=tests/test_regression.py
+
+      # Same results file through load_db.py and load_mongo.py; fails on any difference.
+      - name: Postgres / MongoDB parity
+        run: python scripts/mongo_parity.py tests/fixtures/ci_results_quick.json
+
+      # ---- Evaluation regression (owned by Eval & QA) -------------------------
+      # Intentionally NOT duplicated here. It lives unchanged in
+      # .github/workflows/eval.yml: it scores tests/fixtures/ci_results_quick.json
+      # with src/evaluate.py and runs tests/test_regression.py.

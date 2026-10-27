@@ -1,0 +1,10 @@
+[
+  {"id": "synthetic_001", "image": "tests/fixtures/images/synthetic_001.png", "source": "SROIE", "split": "quick",
+   "merchant": "SUNRISE BAKERY", "date": "2018-12-25", "total": "11.20"},
+  {"id": "synthetic_002", "image": "tests/fixtures/images/synthetic_002.png", "source": "CORD-v2", "split": "quick",
+   "merchant": null, "date": null, "total": "60000.00"},
+  {"id": "synthetic_003", "image": "tests/fixtures/images/synthetic_003.png", "source": "SROIE", "split": "quick",
+   "merchant": "NORTHWIND HARDWARE", "date": null, "total": null},
+  {"id": "synthetic_missing", "image": "tests/fixtures/images/does_not_exist.png", "source": "SROIE", "split": "holdout",
+   "merchant": null, "date": null, "total": null}
+]

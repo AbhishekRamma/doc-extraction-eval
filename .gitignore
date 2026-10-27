@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Secrets (API keys live here, never commit)
+.env
+
+# Large downloaded images
+data/raw/*
+!data/raw/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Personal project brief (contains personal info)
+PROJECT_BRIEF.md
+
+# Generated caches / outputs
+data/ocr_cache/
+data/llm_cache/
+results/*
+!results/ocr_comparison.json
+# CORD held-out (80 non-quick receipts) rules run + its score. CORD is CC BY 4.0, so these
+# are committed; SROIE outputs never go here (they stay under data/local/).
+!results/heldout/
+eval_runs/
+
+# LOCAL-ONLY data (never commit). SROIE's licence is not confirmed from a
+# primary source (ICDAR RRC), so its images, labels and any per-receipt
+# outputs derived from it must stay on this machine. See scripts/fetch_sroie.py.
+data/local/

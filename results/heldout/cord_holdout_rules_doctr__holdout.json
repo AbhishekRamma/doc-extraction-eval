@@ -1,0 +1,139 @@
+{
+  "run": {
+    "run_id": "cord_holdout_rules_doctr",
+    "model": "rules:rules",
+    "prompt_version": "none",
+    "ocr_engine": "doctr-1.1.0",
+    "extractor_version": "rules-v1",
+    "created_at": "2026-10-24T14:01:55Z"
+  },
+  "split": "holdout",
+  "results_file": "results/heldout/cord_holdout_rules_doctr.json",
+  "labels_file": "data/golden/labels.json",
+  "evaluated_at": "2026-10-24T14:07:14Z",
+  "final": false,
+  "metrics": {
+    "n_receipts": 80,
+    "n_missing_from_results": 0,
+    "n_extra_in_results": 0,
+    "duplicate_ids_in_results": [],
+    "per_field": {
+      "merchant": {
+        "correct": 0,
+        "scored": 0,
+        "accuracy": null
+      },
+      "date": {
+        "correct": 0,
+        "scored": 0,
+        "accuracy": null
+      },
+      "total": {
+        "correct": 64,
+        "scored": 76,
+        "accuracy": 0.8421052631578947
+      }
+    },
+    "merchant_fuzzy": {
+      "correct": 0,
+      "scored": 0,
+      "threshold": 0.9,
+      "accuracy": null
+    },
+    "overall": {
+      "correct": 64,
+      "scored": 76,
+      "accuracy": 0.8421052631578947
+    },
+    "receipt_exact": {
+      "correct": 64,
+      "scored": 76,
+      "accuracy": 0.8421052631578947
+    },
+    "valid_rate": {
+      "count": 80,
+      "of": 80,
+      "rate": 1.0
+    },
+    "needs_review_rate": {
+      "count": 80,
+      "of": 80,
+      "rate": 1.0
+    },
+    "failures": [
+      {
+        "id": "cord_test_040",
+        "field": "total",
+        "gold": "68000.00",
+        "predicted": "0.00"
+      },
+      {
+        "id": "cord_test_045",
+        "field": "total",
+        "gold": "88000.00",
+        "predicted": "88.00"
+      },
+      {
+        "id": "cord_test_049",
+        "field": "total",
+        "gold": "23000.00",
+        "predicted": "30000.00"
+      },
+      {
+        "id": "cord_test_050",
+        "field": "total",
+        "gold": "19500.00",
+        "predicted": "100008.00"
+      },
+      {
+        "id": "cord_test_056",
+        "field": "total",
+        "gold": "8999.00",
+        "predicted": "10000.00"
+      },
+      {
+        "id": "cord_test_071",
+        "field": "total",
+        "gold": "198000.00",
+        "predicted": null
+      },
+      {
+        "id": "cord_test_073",
+        "field": "total",
+        "gold": "22000.00",
+        "predicted": "25000.00"
+      },
+      {
+        "id": "cord_test_086",
+        "field": "total",
+        "gold": "22000.00",
+        "predicted": "52000.00"
+      },
+      {
+        "id": "cord_test_087",
+        "field": "total",
+        "gold": "40150.00",
+        "predicted": "1.00"
+      },
+      {
+        "id": "cord_test_091",
+        "field": "total",
+        "gold": "21000.00",
+        "predicted": "30000.00"
+      },
+      {
+        "id": "cord_test_092",
+        "field": "total",
+        "gold": "240000.00",
+        "predicted": "250000.00"
+      },
+      {
+        "id": "cord_test_095",
+        "field": "total",
+        "gold": "61799.00",
+        "predicted": "62000.00"
+      }
+    ],
+    "warnings": []
+  }
+}

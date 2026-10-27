@@ -1,0 +1,64 @@
+{
+  "dataset": "CORD-v2 quick split (20)",
+  "hardware": {
+    "cpu_count": 8,
+    "gpu": null,
+    "note": "CPU only"
+  },
+  "run_date": "2026-10-24",
+  "timing_note": "sec per image excludes model load; cached OCR text is not timed (use --no-cache)",
+  "engines": [
+    {
+      "engine": "tesseract",
+      "version": "tesseract-5.5.0",
+      "n_images": 20,
+      "images_timed": 20,
+      "mean_sec_per_image": 0.297,
+      "model_load_sec": null,
+      "gold_total_found_rate": 0.474,
+      "gold_amounts_found_rate": 0.382,
+      "rules_total_correct": 8,
+      "rules_total_n": 19,
+      "note": null
+    },
+    {
+      "engine": "easyocr",
+      "version": "easyocr-1.7.2",
+      "n_images": 20,
+      "images_timed": 20,
+      "mean_sec_per_image": 1.654,
+      "model_load_sec": 4.21,
+      "gold_total_found_rate": 0.421,
+      "gold_amounts_found_rate": 0.393,
+      "rules_total_correct": 7,
+      "rules_total_n": 19,
+      "note": null
+    },
+    {
+      "engine": "doctr",
+      "version": "doctr-1.1.0",
+      "n_images": 20,
+      "images_timed": 20,
+      "mean_sec_per_image": 0.454,
+      "model_load_sec": 4.9,
+      "gold_total_found_rate": 1.0,
+      "gold_amounts_found_rate": 0.966,
+      "rules_total_correct": 16,
+      "rules_total_n": 19,
+      "note": null
+    },
+    {
+      "engine": "paddleocr",
+      "version": "paddleocr-3.7.0",
+      "n_images": 20,
+      "images_timed": 20,
+      "mean_sec_per_image": 8.803,
+      "model_load_sec": 2.34,
+      "gold_total_found_rate": 1.0,
+      "gold_amounts_found_rate": 0.978,
+      "rules_total_correct": 17,
+      "rules_total_n": 19,
+      "note": null
+    }
+  ]
+}

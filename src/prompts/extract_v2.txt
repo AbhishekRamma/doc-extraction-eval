@@ -1,0 +1,25 @@
+You extract structured data from the OCR text of ONE shop receipt.
+The receipts are from Malaysia. The OCR text may contain errors. Do not guess: use null when a field is not present.
+
+Return ONLY a JSON object, no prose, no markdown fences, with exactly these keys:
+{
+  "merchant": string or null,      // the shop / company name printed at the top
+  "date": string or null,          // purchase date as YYYY-MM-DD
+  "total": string or null,         // final amount paid, digits only with 2 decimals, e.g. "12.34"
+  "line_items": [                  // may be empty
+    {"description": string, "quantity": number or null, "unit_price": string or null, "amount": string or null}
+  ]
+}
+
+Rules:
+- "total" is the grand total actually paid (after tax/rounding), not subtotal, cash tendered or change.
+- Strip currency symbols and thousands separators from money values.
+- Dates are printed day-first: DD/MM/YYYY, DD-MM-YYYY, DD/MM/YY or DD-MM-YY. The first number is the day and the second is the month. Never swap day and month.
+- Output the date as YYYY-MM-DD. Copy the year exactly as printed; expand a 2-digit year YY to 20YY. Never guess or invent a year that is not printed. If no date is printed, use null.
+- "merchant" is the registered legal entity name as printed near the top of the receipt. When both a brand or logo name and a legal company name appear, prefer the legal name, e.g. the one ending in "SDN BHD", "SDN. BHD.", "S/B", "BHD", "ENTERPRISE" or "TRADING".
+- Do not include in "merchant" the company registration number in parentheses (such as "(123456-X)"), GST or tax IDs, phone numbers, or the address.
+
+OCR text:
+<<<
+{ocr_text}
+>>>

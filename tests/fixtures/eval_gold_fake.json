@@ -1,0 +1,10 @@
+[
+  {"id": "fake_001", "image": "none.jpg", "source": "FAKE", "split": "quick",
+   "merchant": "Toko Maju", "date": "2019-03-25", "total": "60.000"},
+  {"id": "fake_002", "image": "none.jpg", "source": "FAKE", "split": "quick",
+   "merchant": "Cafe Kopi", "date": "14/03/2019", "total": "1,591,600"},
+  {"id": "fake_003", "image": "none.jpg", "source": "FAKE", "split": "quick",
+   "merchant": null, "date": null, "total": "15000.00"},
+  {"id": "fake_004", "image": "none.jpg", "source": "FAKE", "split": "holdout",
+   "merchant": "Missing Mart", "date": "2020-01-01", "total": "10.00"}
+]

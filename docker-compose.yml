@@ -1,0 +1,53 @@
+# docker compose up  ->  Postgres starts, schema is applied by its init script,
+# then the app runs the pipeline (cached + rules providers, no paid APIs) and
+# loads the results into the star schema.
+# The optional `mongo` service is the document store for src/load_mongo.py
+# (docker compose up -d mongo); the app does not depend on it.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: receipts
+      POSTGRES_PASSWORD: receipts   # local demo only
+      POSTGRES_DB: receipts
+    ports:
+      - "${DB_PORT:-5432}:5432"   # set DB_PORT if 5432 is taken
+    volumes:
+      # files in this folder run once, when the data volume is first created
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./sql:/sql:ro
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U receipts -d receipts"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  mongo:
+    image: mongo:7
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: receipts
+      MONGO_INITDB_ROOT_PASSWORD: receipts   # local demo only
+    ports:
+      - "${MONGO_PORT:-27017}:27017"   # set MONGO_PORT if 27017 is taken
+    volumes:
+      - mongodata:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://receipts:receipts@db:5432/receipts
+    volumes:
+      - ./results:/app/results
+
+volumes:
+  pgdata:
+  mongodata:

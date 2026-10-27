@@ -1,0 +1,36 @@
+# Evaluation workflow (owned by Eval & QA).
+# Kept separate from ci.yml (owned by Software DEV) so the two don't clash.
+# No API calls and no SROIE: it only scores a CACHED results file against
+# data/golden/labels.json, so it is free and gives the same answer every time.
+name: eval
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install project
+        run: pip install -e ".[dev]"
+
+      # ---- Evaluation step (Eval & QA) ---------------------------------------
+      - name: "Eval: score cached quick-split results + regression test"
+        run: |
+          if [ -f tests/fixtures/ci_results_quick.json ]; then
+            python -m src.evaluate tests/fixtures/ci_results_quick.json --split quick
+          else
+            echo "No tests/fixtures/ci_results_quick.json yet - skipping evaluate (no real run cached)."
+          fi
+          # Skips with a clear message until a real run sets the threshold.
+          python -m pytest tests/test_regression.py -v -rs

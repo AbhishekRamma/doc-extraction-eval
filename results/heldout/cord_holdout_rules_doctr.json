@@ -1,0 +1,1069 @@
+{
+  "run_id": "cord_holdout_rules_doctr",
+  "model": "rules:rules",
+  "prompt_version": "none",
+  "ocr_engine": "doctr-1.1.0",
+  "extractor_version": "rules-v1",
+  "created_at": "2026-10-24T14:01:55Z",
+  "receipts": [
+    {
+      "merchant": "1 cashew nuts chkn",
+      "date": null,
+      "total": "377859.00",
+      "line_items": [],
+      "id": "cord_test_020",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "- fiient -e 11",
+      "date": null,
+      "total": "38000.00",
+      "line_items": [],
+      "id": "cord_test_021",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "2 [MD] SOFT STEAMED CHEESEC",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_022",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "6 TWIST DONUT",
+      "date": null,
+      "total": "63000.00",
+      "line_items": [],
+      "id": "cord_test_023",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "5001-Corn Flakes Cookies",
+      "date": null,
+      "total": "118000.00",
+      "line_items": [],
+      "id": "cord_test_024",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 TWIST STRAWBERRY DONUT",
+      "date": null,
+      "total": "43000.00",
+      "line_items": [],
+      "id": "cord_test_025",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "wA BANTHA",
+      "date": null,
+      "total": "138000.00",
+      "line_items": [],
+      "id": "cord_test_026",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "PKT AYAM",
+      "date": null,
+      "total": "61600.00",
+      "line_items": [],
+      "id": "cord_test_027",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "-ntE",
+      "date": null,
+      "total": "426195.00",
+      "line_items": [],
+      "id": "cord_test_028",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "COLD OCHA",
+      "date": null,
+      "total": "145900.00",
+      "line_items": [],
+      "id": "cord_test_029",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Kupon 3",
+      "date": null,
+      "total": "31500.00",
+      "line_items": [],
+      "id": "cord_test_030",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "SALMON PESTO",
+      "date": null,
+      "total": "113886.00",
+      "line_items": [],
+      "id": "cord_test_031",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "nyt",
+      "date": null,
+      "total": "24000.00",
+      "line_items": [],
+      "id": "cord_test_032",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "GRILLED BABY POTATO (R",
+      "date": null,
+      "total": "148127.00",
+      "line_items": [],
+      "id": "cord_test_033",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Ash Chick Sambal Matah",
+      "date": null,
+      "total": "93500.00",
+      "line_items": [],
+      "id": "cord_test_034",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "2 TWIST DONUT",
+      "date": null,
+      "total": "54000.00",
+      "line_items": [],
+      "id": "cord_test_035",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "XXL Crispy Chicken",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_036",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Popcorn Salt (S)",
+      "date": null,
+      "total": "20000.00",
+      "line_items": [],
+      "id": "cord_test_037",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "XLB Org Pork 10x",
+      "date": null,
+      "total": "664329.00",
+      "line_items": [],
+      "id": "cord_test_038",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "HPL754DR LUNCH BOX 3P SET W/RED BAG &",
+      "date": null,
+      "total": "1944000.00",
+      "line_items": [],
+      "id": "cord_test_039",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Snack Lestari All",
+      "date": null,
+      "total": "0.00",
+      "line_items": [],
+      "id": "cord_test_040",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Chicken Maryland",
+      "date": null,
+      "total": "365000.00",
+      "line_items": [],
+      "id": "cord_test_041",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Chicken HCC, 1PCS",
+      "date": null,
+      "total": "16500.00",
+      "line_items": [],
+      "id": "cord_test_042",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "6 Pcs Cheese Tart",
+      "date": null,
+      "total": "165000.00",
+      "line_items": [],
+      "id": "cord_test_043",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Combo 1",
+      "date": null,
+      "total": "30000.00",
+      "line_items": [],
+      "id": "cord_test_044",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Lemon Tea (L).",
+      "date": null,
+      "total": "88.00",
+      "line_items": [],
+      "id": "cord_test_045",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1X S-Bubble Milk Tea @20,000",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_046",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "COPIA 1 /GB",
+      "date": null,
+      "total": "63000.00",
+      "line_items": [],
+      "id": "cord_test_047",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1X S-Hazelnut KOI Cafe @25,000",
+      "date": null,
+      "total": "25000.00",
+      "line_items": [],
+      "id": "cord_test_048",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 Ptgs Eggtart",
+      "date": null,
+      "total": "30000.00",
+      "line_items": [],
+      "id": "cord_test_049",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Spcfrice Cauburry",
+      "date": null,
+      "total": "100008.00",
+      "line_items": [],
+      "id": "cord_test_050",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "trait",
+      "date": null,
+      "total": "334000.00",
+      "line_items": [],
+      "id": "cord_test_051",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "D TH NTI THAI TEA",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_052",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Kopidegit",
+      "date": null,
+      "total": "123585.00",
+      "line_items": [],
+      "id": "cord_test_053",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "- ARLaRg",
+      "date": null,
+      "total": "10000.00",
+      "line_items": [],
+      "id": "cord_test_054",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 APPLE CINNAMON PASTRY",
+      "date": null,
+      "total": "54000.00",
+      "line_items": [],
+      "id": "cord_test_055",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "AIR MINERAL",
+      "date": null,
+      "total": "10000.00",
+      "line_items": [],
+      "id": "cord_test_056",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": null,
+      "date": null,
+      "total": "42000.00",
+      "line_items": [],
+      "id": "cord_test_057",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "PHO BO TAI",
+      "date": null,
+      "total": "60500.00",
+      "line_items": [],
+      "id": "cord_test_058",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "2 Tahu Isi",
+      "date": null,
+      "total": "680500.00",
+      "line_items": [],
+      "id": "cord_test_059",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Topping Milo Sparkle (untuk 1 Po",
+      "date": null,
+      "total": "26250.00",
+      "line_items": [],
+      "id": "cord_test_060",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "TALAM UNGU",
+      "date": null,
+      "total": "24500.00",
+      "line_items": [],
+      "id": "cord_test_061",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "XXI Java Tea (M)",
+      "date": null,
+      "total": "48000.00",
+      "line_items": [],
+      "id": "cord_test_062",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Kopi Susu Kampung.",
+      "date": null,
+      "total": "57000.00",
+      "line_items": [],
+      "id": "cord_test_063",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "SINGLE SCOOP",
+      "date": null,
+      "total": "16000.00",
+      "line_items": [],
+      "id": "cord_test_064",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "ubur Polos + Telur",
+      "date": null,
+      "total": "13000.00",
+      "line_items": [],
+      "id": "cord_test_065",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "PILLOW DURIA",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_066",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "2005-CHEESE JOHN",
+      "date": null,
+      "total": "9500.00",
+      "line_items": [],
+      "id": "cord_test_067",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "ICED",
+      "date": null,
+      "total": "20000.00",
+      "line_items": [],
+      "id": "cord_test_068",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 [MD] SOFT MORNING ROLL",
+      "date": null,
+      "total": "74000.00",
+      "line_items": [],
+      "id": "cord_test_069",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "2 UDANG RE 216,000 432,000",
+      "date": null,
+      "total": "1565938.00",
+      "line_items": [],
+      "id": "cord_test_070",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Cuka Apel Tetes 1",
+      "date": null,
+      "total": null,
+      "line_items": [],
+      "id": "cord_test_071",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_total",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "teen an",
+      "date": null,
+      "total": "17500.00",
+      "line_items": [],
+      "id": "cord_test_072",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1001-Choco Bun",
+      "date": null,
+      "total": "25000.00",
+      "line_items": [],
+      "id": "cord_test_073",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 BLACKCURRANT",
+      "date": null,
+      "total": "330264.00",
+      "line_items": [],
+      "id": "cord_test_074",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 CHOCO PUFF",
+      "date": null,
+      "total": "282000.00",
+      "line_items": [],
+      "id": "cord_test_075",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "BASO TAHU",
+      "date": null,
+      "total": null,
+      "line_items": [],
+      "id": "cord_test_076",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_total",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "TRIPPLE CHEESE",
+      "date": null,
+      "total": "17000.00",
+      "line_items": [],
+      "id": "cord_test_077",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 Lemon Tea (L)",
+      "date": null,
+      "total": "30000.00",
+      "line_items": [],
+      "id": "cord_test_078",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1001-Choco Bun",
+      "date": null,
+      "total": "22000.00",
+      "line_items": [],
+      "id": "cord_test_079",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 Viet Milk Coffee",
+      "date": null,
+      "total": "25000.00",
+      "line_items": [],
+      "id": "cord_test_080",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "3002-Kyoto Choco Mochi",
+      "date": null,
+      "total": "50000.00",
+      "line_items": [],
+      "id": "cord_test_081",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "EVTIN",
+      "date": null,
+      "total": "385000.00",
+      "line_items": [],
+      "id": "cord_test_082",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 COOKIES AND CREAM",
+      "date": null,
+      "total": "23000.00",
+      "line_items": [],
+      "id": "cord_test_083",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Kroket",
+      "date": null,
+      "total": "39600.00",
+      "line_items": [],
+      "id": "cord_test_084",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "3 Nasi Putih",
+      "date": null,
+      "total": "197450.00",
+      "line_items": [],
+      "id": "cord_test_085",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 Cheezemania",
+      "date": null,
+      "total": "52000.00",
+      "line_items": [],
+      "id": "cord_test_086",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": null,
+      "date": null,
+      "total": "1.00",
+      "line_items": [],
+      "id": "cord_test_087",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "STIX ECLAIRS",
+      "date": null,
+      "total": "47000.00",
+      "line_items": [],
+      "id": "cord_test_088",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "XXL - Crispy Chicken",
+      "date": null,
+      "total": "40000.00",
+      "line_items": [],
+      "id": "cord_test_089",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 CIRENG PANDAWA",
+      "date": null,
+      "total": "29500.00",
+      "line_items": [],
+      "id": "cord_test_090",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "BAKSO BNGKS",
+      "date": null,
+      "total": "30000.00",
+      "line_items": [],
+      "id": "cord_test_091",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "-TICKET CP",
+      "date": null,
+      "total": "250000.00",
+      "line_items": [],
+      "id": "cord_test_092",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "THAI ICED TEA (L)",
+      "date": null,
+      "total": "17999.00",
+      "line_items": [],
+      "id": "cord_test_093",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": null,
+      "date": null,
+      "total": "140063.00",
+      "line_items": [],
+      "id": "cord_test_094",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "BASO TAHU",
+      "date": null,
+      "total": "62000.00",
+      "line_items": [],
+      "id": "cord_test_095",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "BBQ Chicken",
+      "date": null,
+      "total": "41000.00",
+      "line_items": [],
+      "id": "cord_test_096",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "BUBUR GO",
+      "date": null,
+      "total": "55000.00",
+      "line_items": [],
+      "id": "cord_test_097",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Dancia",
+      "date": null,
+      "total": "250690.00",
+      "line_items": [],
+      "id": "cord_test_098",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 FL-Xmas 30 Off",
+      "date": null,
+      "total": "75000.00",
+      "line_items": [],
+      "id": "cord_test_099",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    }
+  ]
+}

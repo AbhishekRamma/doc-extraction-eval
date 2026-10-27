@@ -1,0 +1,73 @@
+{
+  "labels_file": "data/golden/labels.json",
+  "split": "holdout",
+  "final": false,
+  "n_receipts": 80,
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20261024,
+    "unit": "receipt",
+    "interval": "percentile 95%"
+  },
+  "computed_at": "2026-10-24T14:13:11Z",
+  "runs": {
+    "rules": {
+      "results_file": "results/heldout/cord_holdout_rules_doctr.json",
+      "run_id": "cord_holdout_rules_doctr",
+      "model": "rules:rules",
+      "prompt_version": "none",
+      "ocr_engine": "doctr-1.1.0",
+      "extractor_version": "rules-v1",
+      "created_at": "2026-10-24T14:01:55Z",
+      "metrics": {
+        "merchant": {
+          "correct": 0,
+          "scored": 0,
+          "accuracy": null,
+          "ci95": null
+        },
+        "date": {
+          "correct": 0,
+          "scored": 0,
+          "accuracy": null,
+          "ci95": null
+        },
+        "total": {
+          "correct": 64,
+          "scored": 76,
+          "accuracy": 0.8421052631578947,
+          "ci95": [
+            0.7564102564102564,
+            0.9210526315789473
+          ]
+        },
+        "overall": {
+          "correct": 64,
+          "scored": 76,
+          "accuracy": 0.8421052631578947,
+          "ci95": [
+            0.7564102564102564,
+            0.9210526315789473
+          ]
+        }
+      },
+      "receipt_exact": {
+        "correct": 64,
+        "scored": 76,
+        "accuracy": 0.8421052631578947
+      },
+      "valid_rate": {
+        "count": 80,
+        "of": 80,
+        "rate": 1.0
+      },
+      "merchant_fuzzy": {
+        "correct": 0,
+        "scored": 0,
+        "threshold": 0.9,
+        "accuracy": null
+      }
+    }
+  },
+  "pairs": {}
+}

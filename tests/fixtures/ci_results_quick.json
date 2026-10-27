@@ -1,0 +1,273 @@
+{
+  "run_id": "ci_results_quick",
+  "model": "rules-v2:rules",
+  "prompt_version": "none",
+  "ocr_engine": "doctr-1.1.0",
+  "extractor_version": "rules-v2",
+  "created_at": "2026-10-24T17:40:04Z",
+  "receipts": [
+    {
+      "merchant": "-TICKET CP",
+      "date": null,
+      "total": "60000.00",
+      "line_items": [],
+      "id": "cord_test_000",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "J.STB",
+      "date": null,
+      "total": "91000.00",
+      "line_items": [],
+      "id": "cord_test_001",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "JASMINE MT (1)",
+      "date": null,
+      "total": "28000.00",
+      "line_items": [],
+      "id": "cord_test_002",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Aokery a aeta",
+      "date": null,
+      "total": "11000.00",
+      "line_items": [],
+      "id": "cord_test_003",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Urob",
+      "date": null,
+      "total": "174600.00",
+      "line_items": [],
+      "id": "cord_test_004",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "TRAD KY TOAST CARTE",
+      "date": null,
+      "total": "31000.00",
+      "line_items": [],
+      "id": "cord_test_005",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 EGG TART",
+      "date": null,
+      "total": "46000.00",
+      "line_items": [],
+      "id": "cord_test_006",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Kupon 15",
+      "date": null,
+      "total": "111000.00",
+      "line_items": [],
+      "id": "cord_test_007",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 [REG] BLACK SAKURA",
+      "date": null,
+      "total": "50000.00",
+      "line_items": [],
+      "id": "cord_test_008",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Bumbu Kaldu Ayam 1",
+      "date": null,
+      "total": "36000.00",
+      "line_items": [],
+      "id": "cord_test_009",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "CINNAMONSUGAR",
+      "date": null,
+      "total": "17000.00",
+      "line_items": [],
+      "id": "cord_test_010",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 BANABERRY FRESH CREAM CAK 230,000",
+      "date": null,
+      "total": "230000.00",
+      "line_items": [],
+      "id": "cord_test_011",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "0571-1854 BLUS WANITA",
+      "date": null,
+      "total": "120000.00",
+      "line_items": [],
+      "id": "cord_test_012",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "AAA : LUF LEE",
+      "date": null,
+      "total": "51300.00",
+      "line_items": [],
+      "id": "cord_test_013",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 RedVelvet Cheese Slc",
+      "date": null,
+      "total": "281435.00",
+      "line_items": [],
+      "id": "cord_test_014",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Lemon Tea (L)",
+      "date": null,
+      "total": "63000.00",
+      "line_items": [],
+      "id": "cord_test_015",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "1 [LG] BLACK SAKURA",
+      "date": null,
+      "total": "70000.00",
+      "line_items": [],
+      "id": "cord_test_016",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Goblin's Mace 1",
+      "date": null,
+      "total": "91000.00",
+      "line_items": [],
+      "id": "cord_test_017",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "Propolis Cair 1",
+      "date": null,
+      "total": "156000.00",
+      "line_items": [],
+      "id": "cord_test_018",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "total_guessed_no_keyword",
+        "missing_date"
+      ],
+      "error": null
+    },
+    {
+      "merchant": "4 ANBUSH DBL CHS",
+      "date": null,
+      "total": "176000.00",
+      "line_items": [],
+      "id": "cord_test_019",
+      "valid": true,
+      "needs_review": true,
+      "review_reasons": [
+        "missing_date"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+```json
+{"merchant": "KEDAI KOPI CONTOH", "date": null, "total": "60.000",
+ "line_items": [{"description": "ES TEH", "quantity": 1, "unit_price": null, "amount": "22.000"},
+                {"description": "NASI GORENG", "quantity": 2, "unit_price": null, "amount": "38.000"}]}
+```

@@ -1,0 +1,6 @@
+{
+  "min_overall_accuracy": 0.94,
+  "set_from_run": "ci_results_quick (doctr-1.1.0 + rules-v2): measured 19/19 = 100.0% on quick split, Oct 24 2026",
+  "split": "quick",
+  "_note": "Threshold 0.94 allows one wrong total (18/19 = 94.7%) and fails at two (17/19 = 89.5%). Not rounded down to 1.00: too brittle for a 19-receipt gate, and the CORD holdout estimate for rules-v2 (69/76 = 90.8%) says 19/19 is partly luck. Previous gate: 0.84 from doctr-1.1.0 + rules-v1 (16/19 = 84.2%)."
+}

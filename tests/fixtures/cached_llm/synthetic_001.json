@@ -1,0 +1,3 @@
+{"merchant": "SUNRISE BAKERY", "date": "2018-12-25", "total": "11.20",
+ "line_items": [{"description": "Croissant", "quantity": 2, "unit_price": "3.50", "amount": "7.00"},
+                {"description": "Coffee", "quantity": 1, "unit_price": "4.20", "amount": "4.20"}]}

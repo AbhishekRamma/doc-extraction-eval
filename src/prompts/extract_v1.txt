@@ -1,0 +1,21 @@
+You extract structured data from the OCR text of ONE shop receipt.
+The OCR text may contain errors. Do not guess: use null when a field is not present.
+
+Return ONLY a JSON object, no prose, no markdown fences, with exactly these keys:
+{
+  "merchant": string or null,      // the shop / company name printed at the top
+  "date": string or null,          // purchase date as YYYY-MM-DD
+  "total": string or null,         // final amount paid, digits only with 2 decimals, e.g. "12.34"
+  "line_items": [                  // may be empty
+    {"description": string, "quantity": number or null, "unit_price": string or null, "amount": string or null}
+  ]
+}
+
+Rules:
+- "total" is the grand total actually paid (after tax/rounding), not subtotal, cash tendered or change.
+- Strip currency symbols and thousands separators from money values.
+
+OCR text:
+<<<
+{ocr_text}
+>>>

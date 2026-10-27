@@ -1,0 +1,902 @@
+[
+  {
+    "id": "cord_test_000",
+    "image": "data/golden/images/cord_test_000.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "60000.00"
+  },
+  {
+    "id": "cord_test_001",
+    "image": "data/golden/images/cord_test_001.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "91000.00"
+  },
+  {
+    "id": "cord_test_002",
+    "image": "data/golden/images/cord_test_002.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "28000.00"
+  },
+  {
+    "id": "cord_test_003",
+    "image": "data/golden/images/cord_test_003.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "11000.00"
+  },
+  {
+    "id": "cord_test_004",
+    "image": "data/golden/images/cord_test_004.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "174600.00"
+  },
+  {
+    "id": "cord_test_005",
+    "image": "data/golden/images/cord_test_005.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "31000.00"
+  },
+  {
+    "id": "cord_test_006",
+    "image": "data/golden/images/cord_test_006.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "46000.00"
+  },
+  {
+    "id": "cord_test_007",
+    "image": "data/golden/images/cord_test_007.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "111000.00"
+  },
+  {
+    "id": "cord_test_008",
+    "image": "data/golden/images/cord_test_008.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "50000.00"
+  },
+  {
+    "id": "cord_test_009",
+    "image": "data/golden/images/cord_test_009.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": null
+  },
+  {
+    "id": "cord_test_010",
+    "image": "data/golden/images/cord_test_010.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "17000.00"
+  },
+  {
+    "id": "cord_test_011",
+    "image": "data/golden/images/cord_test_011.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "230000.00"
+  },
+  {
+    "id": "cord_test_012",
+    "image": "data/golden/images/cord_test_012.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "120000.00"
+  },
+  {
+    "id": "cord_test_013",
+    "image": "data/golden/images/cord_test_013.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "51300.00"
+  },
+  {
+    "id": "cord_test_014",
+    "image": "data/golden/images/cord_test_014.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "281435.00"
+  },
+  {
+    "id": "cord_test_015",
+    "image": "data/golden/images/cord_test_015.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "63000.00"
+  },
+  {
+    "id": "cord_test_016",
+    "image": "data/golden/images/cord_test_016.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "70000.00"
+  },
+  {
+    "id": "cord_test_017",
+    "image": "data/golden/images/cord_test_017.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "91000.00"
+  },
+  {
+    "id": "cord_test_018",
+    "image": "data/golden/images/cord_test_018.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "156000.00"
+  },
+  {
+    "id": "cord_test_019",
+    "image": "data/golden/images/cord_test_019.jpg",
+    "source": "CORD-v2",
+    "split": "quick",
+    "merchant": null,
+    "date": null,
+    "total": "176000.00"
+  },
+  {
+    "id": "cord_test_020",
+    "image": "data/golden/images/cord_test_020.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "377859.00"
+  },
+  {
+    "id": "cord_test_021",
+    "image": "data/golden/images/cord_test_021.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "38000.00"
+  },
+  {
+    "id": "cord_test_022",
+    "image": "data/golden/images/cord_test_022.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_023",
+    "image": "data/golden/images/cord_test_023.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "63000.00"
+  },
+  {
+    "id": "cord_test_024",
+    "image": "data/golden/images/cord_test_024.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "118000.00"
+  },
+  {
+    "id": "cord_test_025",
+    "image": "data/golden/images/cord_test_025.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "43000.00"
+  },
+  {
+    "id": "cord_test_026",
+    "image": "data/golden/images/cord_test_026.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "138000.00"
+  },
+  {
+    "id": "cord_test_027",
+    "image": "data/golden/images/cord_test_027.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "61600.00"
+  },
+  {
+    "id": "cord_test_028",
+    "image": "data/golden/images/cord_test_028.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "426195.00"
+  },
+  {
+    "id": "cord_test_029",
+    "image": "data/golden/images/cord_test_029.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "145900.00"
+  },
+  {
+    "id": "cord_test_030",
+    "image": "data/golden/images/cord_test_030.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "31500.00"
+  },
+  {
+    "id": "cord_test_031",
+    "image": "data/golden/images/cord_test_031.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "113886.00"
+  },
+  {
+    "id": "cord_test_032",
+    "image": "data/golden/images/cord_test_032.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "24000.00"
+  },
+  {
+    "id": "cord_test_033",
+    "image": "data/golden/images/cord_test_033.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "148127.00"
+  },
+  {
+    "id": "cord_test_034",
+    "image": "data/golden/images/cord_test_034.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "93500.00"
+  },
+  {
+    "id": "cord_test_035",
+    "image": "data/golden/images/cord_test_035.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "54000.00"
+  },
+  {
+    "id": "cord_test_036",
+    "image": "data/golden/images/cord_test_036.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_037",
+    "image": "data/golden/images/cord_test_037.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": null
+  },
+  {
+    "id": "cord_test_038",
+    "image": "data/golden/images/cord_test_038.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "664329.00"
+  },
+  {
+    "id": "cord_test_039",
+    "image": "data/golden/images/cord_test_039.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": null
+  },
+  {
+    "id": "cord_test_040",
+    "image": "data/golden/images/cord_test_040.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "68000.00"
+  },
+  {
+    "id": "cord_test_041",
+    "image": "data/golden/images/cord_test_041.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "365000.00"
+  },
+  {
+    "id": "cord_test_042",
+    "image": "data/golden/images/cord_test_042.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "16500.00"
+  },
+  {
+    "id": "cord_test_043",
+    "image": "data/golden/images/cord_test_043.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "165000.00"
+  },
+  {
+    "id": "cord_test_044",
+    "image": "data/golden/images/cord_test_044.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "30000.00"
+  },
+  {
+    "id": "cord_test_045",
+    "image": "data/golden/images/cord_test_045.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "88000.00"
+  },
+  {
+    "id": "cord_test_046",
+    "image": "data/golden/images/cord_test_046.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_047",
+    "image": "data/golden/images/cord_test_047.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "63000.00"
+  },
+  {
+    "id": "cord_test_048",
+    "image": "data/golden/images/cord_test_048.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "25000.00"
+  },
+  {
+    "id": "cord_test_049",
+    "image": "data/golden/images/cord_test_049.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "23000.00"
+  },
+  {
+    "id": "cord_test_050",
+    "image": "data/golden/images/cord_test_050.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "19500.00"
+  },
+  {
+    "id": "cord_test_051",
+    "image": "data/golden/images/cord_test_051.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "334000.00"
+  },
+  {
+    "id": "cord_test_052",
+    "image": "data/golden/images/cord_test_052.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_053",
+    "image": "data/golden/images/cord_test_053.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "123585.00"
+  },
+  {
+    "id": "cord_test_054",
+    "image": "data/golden/images/cord_test_054.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "10000.00"
+  },
+  {
+    "id": "cord_test_055",
+    "image": "data/golden/images/cord_test_055.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "54000.00"
+  },
+  {
+    "id": "cord_test_056",
+    "image": "data/golden/images/cord_test_056.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "8999.00"
+  },
+  {
+    "id": "cord_test_057",
+    "image": "data/golden/images/cord_test_057.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": null
+  },
+  {
+    "id": "cord_test_058",
+    "image": "data/golden/images/cord_test_058.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "60500.00"
+  },
+  {
+    "id": "cord_test_059",
+    "image": "data/golden/images/cord_test_059.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "680500.00"
+  },
+  {
+    "id": "cord_test_060",
+    "image": "data/golden/images/cord_test_060.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "26250.00"
+  },
+  {
+    "id": "cord_test_061",
+    "image": "data/golden/images/cord_test_061.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "24500.00"
+  },
+  {
+    "id": "cord_test_062",
+    "image": "data/golden/images/cord_test_062.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "48000.00"
+  },
+  {
+    "id": "cord_test_063",
+    "image": "data/golden/images/cord_test_063.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "57000.00"
+  },
+  {
+    "id": "cord_test_064",
+    "image": "data/golden/images/cord_test_064.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "16000.00"
+  },
+  {
+    "id": "cord_test_065",
+    "image": "data/golden/images/cord_test_065.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "13000.00"
+  },
+  {
+    "id": "cord_test_066",
+    "image": "data/golden/images/cord_test_066.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_067",
+    "image": "data/golden/images/cord_test_067.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "9500.00"
+  },
+  {
+    "id": "cord_test_068",
+    "image": "data/golden/images/cord_test_068.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "20000.00"
+  },
+  {
+    "id": "cord_test_069",
+    "image": "data/golden/images/cord_test_069.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "74000.00"
+  },
+  {
+    "id": "cord_test_070",
+    "image": "data/golden/images/cord_test_070.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "1565938.00"
+  },
+  {
+    "id": "cord_test_071",
+    "image": "data/golden/images/cord_test_071.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "198000.00"
+  },
+  {
+    "id": "cord_test_072",
+    "image": "data/golden/images/cord_test_072.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "17500.00"
+  },
+  {
+    "id": "cord_test_073",
+    "image": "data/golden/images/cord_test_073.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "22000.00"
+  },
+  {
+    "id": "cord_test_074",
+    "image": "data/golden/images/cord_test_074.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "330264.00"
+  },
+  {
+    "id": "cord_test_075",
+    "image": "data/golden/images/cord_test_075.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "282000.00"
+  },
+  {
+    "id": "cord_test_076",
+    "image": "data/golden/images/cord_test_076.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": null
+  },
+  {
+    "id": "cord_test_077",
+    "image": "data/golden/images/cord_test_077.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "17000.00"
+  },
+  {
+    "id": "cord_test_078",
+    "image": "data/golden/images/cord_test_078.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "30000.00"
+  },
+  {
+    "id": "cord_test_079",
+    "image": "data/golden/images/cord_test_079.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "22000.00"
+  },
+  {
+    "id": "cord_test_080",
+    "image": "data/golden/images/cord_test_080.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "25000.00"
+  },
+  {
+    "id": "cord_test_081",
+    "image": "data/golden/images/cord_test_081.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "50000.00"
+  },
+  {
+    "id": "cord_test_082",
+    "image": "data/golden/images/cord_test_082.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "385000.00"
+  },
+  {
+    "id": "cord_test_083",
+    "image": "data/golden/images/cord_test_083.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "23000.00"
+  },
+  {
+    "id": "cord_test_084",
+    "image": "data/golden/images/cord_test_084.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "39600.00"
+  },
+  {
+    "id": "cord_test_085",
+    "image": "data/golden/images/cord_test_085.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "197450.00"
+  },
+  {
+    "id": "cord_test_086",
+    "image": "data/golden/images/cord_test_086.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "22000.00"
+  },
+  {
+    "id": "cord_test_087",
+    "image": "data/golden/images/cord_test_087.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40150.00"
+  },
+  {
+    "id": "cord_test_088",
+    "image": "data/golden/images/cord_test_088.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "47000.00"
+  },
+  {
+    "id": "cord_test_089",
+    "image": "data/golden/images/cord_test_089.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "40000.00"
+  },
+  {
+    "id": "cord_test_090",
+    "image": "data/golden/images/cord_test_090.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "29500.00"
+  },
+  {
+    "id": "cord_test_091",
+    "image": "data/golden/images/cord_test_091.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "21000.00"
+  },
+  {
+    "id": "cord_test_092",
+    "image": "data/golden/images/cord_test_092.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "240000.00"
+  },
+  {
+    "id": "cord_test_093",
+    "image": "data/golden/images/cord_test_093.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "17999.00"
+  },
+  {
+    "id": "cord_test_094",
+    "image": "data/golden/images/cord_test_094.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "140063.00"
+  },
+  {
+    "id": "cord_test_095",
+    "image": "data/golden/images/cord_test_095.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "61799.00"
+  },
+  {
+    "id": "cord_test_096",
+    "image": "data/golden/images/cord_test_096.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "41000.00"
+  },
+  {
+    "id": "cord_test_097",
+    "image": "data/golden/images/cord_test_097.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "55000.00"
+  },
+  {
+    "id": "cord_test_098",
+    "image": "data/golden/images/cord_test_098.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "250690.00"
+  },
+  {
+    "id": "cord_test_099",
+    "image": "data/golden/images/cord_test_099.jpg",
+    "source": "CORD-v2",
+    "split": "holdout",
+    "merchant": null,
+    "date": null,
+    "total": "75000.00"
+  }
+]
