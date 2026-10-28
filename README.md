@@ -109,15 +109,6 @@ I designed and built this project using AI coding agents as my engineering team.
 
 The decisions and the bugs I fixed along the way are in [docs/PROJECT_JOURNAL.md](docs/PROJECT_JOURNAL.md).
 
-## Limitations and next steps
-
-- **Not verified:** plain `docker compose up` on a machine with working container networking (I ran it with a temporary host-network override and `DB_PORT=5433`); the app container reaching MongoDB by service name; any MongoDB latency figure; the local Ollama path (the model download was blocked) and the OpenAI and Anthropic adapters; SROIE's licence at the official ICDAR source.
-- **Served model drift.** The repo requests `deepseek-chat`, but all 400 test responses were served by `deepseek-flash` (V4.1 Flash). The dev runs didn't record the serving model, so dev and test may not share a backend. The cache now records `response_model` per attempt.
-- **Small samples:** 19 CORD quick totals, 76 CORD holdout totals, 100 SROIE dev and 200 SROIE test receipts.
-- **No load or latency testing**, and per-run latency and cost aren't recorded yet.
-- **History is private.** This repo starts from one commit of a cleaned tree; commit hashes and PR numbers in `docs/` refer to my private archive.
-- **Next:** make the review rule dataset-aware (CORD's missing dates flag every receipt), try better OCR on the merchant header (most remaining LLM merchant errors are OCR near-misses), and run the parity check in CI on more than the 20-receipt fixture.
-
 ## Licence and data
 
 - **Code:** MIT, see [`LICENSE`](LICENSE). It covers my code and docs, not the datasets.
