@@ -47,7 +47,7 @@ def test_normalize_date_bad_input_returns_none(raw):
     ("45.500", "45500.00"),
     ("Rp. 1.591.600", "1591600.00"),
     ("IDR 22,000", "22000.00"),
-    # real CORD-v2 formats (from Eval & QA)
+    # real CORD-v2 formats
     ("Rp. 91,000", "91000.00"),
     ("Rp 38.000", "38000.00"),
     ("Rp.118.000", "118000.00"),

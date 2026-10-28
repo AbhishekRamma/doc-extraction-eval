@@ -1,4 +1,4 @@
-# CI for the app code (owned by Software DEV).
+# CI for the app code.
 # Free only: Tesseract OCR, the rules/cached extractors and a throwaway
 # Postgres 16 and MongoDB 7 service containers. No API keys, no paid calls.
 name: ci
@@ -62,7 +62,7 @@ jobs:
       - name: Postgres / MongoDB parity
         run: python scripts/mongo_parity.py tests/fixtures/ci_results_quick.json
 
-      # ---- Evaluation regression (owned by Eval & QA) -------------------------
+      # ---- Evaluation regression ----------------------------------------------
       # Intentionally NOT duplicated here. It lives unchanged in
       # .github/workflows/eval.yml: it scores tests/fixtures/ci_results_quick.json
       # with src/evaluate.py and runs tests/test_regression.py.

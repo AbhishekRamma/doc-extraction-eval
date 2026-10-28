@@ -19,7 +19,7 @@ data/raw/*
 .idea/
 .DS_Store
 
-# Personal project brief (contains personal info)
+# Personal notes (never committed)
 PROJECT_BRIEF.md
 
 # Generated caches / outputs

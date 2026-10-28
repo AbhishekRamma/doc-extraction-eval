@@ -1,5 +1,5 @@
-# Evaluation workflow (owned by Eval & QA).
-# Kept separate from ci.yml (owned by Software DEV) so the two don't clash.
+# Evaluation workflow.
+# Kept separate from ci.yml so the app tests and the eval gate report separately.
 # No API calls and no SROIE: it only scores a CACHED results file against
 # data/golden/labels.json, so it is free and gives the same answer every time.
 name: eval
@@ -24,7 +24,7 @@ jobs:
       - name: Install project
         run: pip install -e ".[dev]"
 
-      # ---- Evaluation step (Eval & QA) ---------------------------------------
+      # ---- Evaluation step ---------------------------------------------------
       - name: "Eval: score cached quick-split results + regression test"
         run: |
           if [ -f tests/fixtures/ci_results_quick.json ]; then
