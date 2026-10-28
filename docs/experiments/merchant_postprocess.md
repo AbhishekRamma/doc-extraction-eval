@@ -4,7 +4,7 @@ Branch `exp/merchant-postprocess`. `src/postprocess.py` runs after extraction, o
 
 ## Status: optional, off by default (decided 2026-10-24)
 
-**Verdict.** Dev: +3 to +5 pp merchant, 0 broken. SROIE test 200: +0.5 to +1.5 pp, 1–2 broken per extractor, and every CI crosses 0 (details below). Golden Ace decided to keep pp-merchant-v1 **only as an optional, separately reported score**.
+**Verdict.** Dev: +3 to +5 pp merchant, 0 broken. SROIE test 200: +0.5 to +1.5 pp, 1–2 broken per extractor, and every CI crosses 0 (details below). I decided to keep pp-merchant-v1 **only as an optional, separately reported score**.
 
 **What "off by default" means:**
 - The pipeline never applies it. `src/pipeline.py` and `src/extract.py` don't import it, and results files keep the raw merchant.

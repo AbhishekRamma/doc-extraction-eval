@@ -13,7 +13,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "pyarrow"]
-# Reading the CORD-v2 parquet files (scripts/build_golden.py, Eval & QA)
+# Reading the CORD-v2 parquet files (scripts/build_golden.py)
 data = ["pyarrow"]
 # Optional OCR engines (large, CPU torch/paddle); see scripts/compare_ocr.py
 ocr-easyocr = ["easyocr"]

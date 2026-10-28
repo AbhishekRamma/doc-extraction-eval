@@ -140,7 +140,7 @@ def main(argv=None) -> int:
     p.add_argument("--run-id", default=None)
     a = p.parse_args(argv)
     if not a.labels.exists():
-        print(f"labels file not found: {a.labels}\n(data/golden/labels.json is built by Eval & QA; "
+        print(f"labels file not found: {a.labels}\n(data/golden/labels.json is built by scripts/build_golden.py; "
               f"for a demo use --labels tests/fixtures/labels.json)", file=sys.stderr)
         return 2
     try:

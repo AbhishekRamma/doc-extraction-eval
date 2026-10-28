@@ -1,6 +1,6 @@
 """Pure normalisation helpers shared by extract.py and evaluate.py.
 
-Rules (agreed with Eval & QA):
+Rules:
 - pure and deterministic: no I/O, no randomness, no locale or clock use
 - return None for empty or unparseable input, never raise
 - idempotent: normalize(normalize(x)) == normalize(x)

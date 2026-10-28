@@ -2,7 +2,7 @@
 
 `Receipt` / `LineItem` describe what an extractor returns for one receipt.
 `ReceiptResult` / `RunResult` describe the results/<run_id>.json file that
-evaluate.py (owned by Eval & QA) reads.
+evaluate.py reads.
 """
 from __future__ import annotations
 

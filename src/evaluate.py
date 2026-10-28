@@ -15,7 +15,7 @@ Splits (see src/splits.py):
          all     = alias for full
          Any selection that contains "test" rows (including full/all) needs --final.
 
-Scoring rules (agreed with Software DEV):
+Scoring rules:
 - A field is only *scored* for receipts whose gold value is not null. CORD has
   no merchant/date labels, so on CORD those fields show "scored 0".
 - accuracy(field) = correct / scored

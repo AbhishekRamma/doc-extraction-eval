@@ -20,7 +20,7 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "data" / "ocr_cache"
 BASELINE_ENGINE = "tesseract"
-# Default picked from measured results (docs/LEARNING.md, scripts/compare_ocr.py):
+# Default picked from measured results (docs/RESULTS.md, scripts/compare_ocr.py):
 # on the 20-receipt CORD quick split, docTR + rules got 16/19 totals right at
 # ~0.44 s/image vs tesseract 8/19 at ~0.29 s/image. "auto" = docTR when installed,
 # otherwise the tesseract baseline.

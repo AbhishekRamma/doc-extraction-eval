@@ -197,7 +197,7 @@ def main(argv=None) -> int:
     a = p.parse_args(argv)
 
     if not a.labels.exists():
-        print(f"labels not found: {a.labels} (built by Eval & QA)", file=sys.stderr)
+        print(f"labels not found: {a.labels} (built by scripts/build_golden.py)", file=sys.stderr)
         return 2
     rows = select_rows(json.loads(a.labels.read_text(encoding="utf-8")), a.split)
     check_test_access(rows)   # OCR comparison is a tuning tool: never on the test split

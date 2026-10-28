@@ -41,7 +41,7 @@ from PIL import Image
 # Make `import src...` work when running `python scripts/build_golden.py`.
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from src.normalize import normalize_total  # noqa: E402  (owned by Software DEV)
+from src.normalize import normalize_total  # noqa: E402
 
 # Pinned dataset commit on Hugging Face (so the data never silently changes).
 HF_REVISION = "7f0115a4b758a71d6473b8d085751692da2fef98"

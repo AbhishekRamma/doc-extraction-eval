@@ -73,7 +73,7 @@ The current "baseline rounded down" convention would give 1.00, which is too bri
 - 8 test receipts that rules-v1 got right are now wrong.
 - On CORD held-out the gain was +6.6 pp, with a CI that crosses 0.
 
-## Fixture provenance (Eval & QA note, fixed after review of `8b749f4`)
+## Fixture provenance (fixed after review of `8b749f4`)
 
 **Timing.** The SROIE test split was frozen at 09:57:30 (America/Toronto). The last edits to the rules-v2 files came after that: `src/extract.py` at 09:59:07 and `tests/test_rules_v2.py` at 09:59:31.
 - No test-split failure lists or per-receipt test outputs were inspected while the rules were written.
